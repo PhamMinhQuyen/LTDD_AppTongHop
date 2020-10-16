@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="#CCFFFF"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/avatar"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#FF0000"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="PHẠM MINH QUYỀN">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0367148396"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="35dp"
+            android:drawableLeft="@drawable/dt"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nam"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="35dp"
+            android:drawableLeft="@drawable/gt"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="minhquyen05112000@gmail.com"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="35dp"
+            android:drawableLeft="@drawable/email1"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bình Nam - Thăng Bình - Quảng Nam"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="35dp"
+            android:drawableLeft="@drawable/diachi"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MỤC TIÊU NGHỀ NGHIỆP"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#0000FF"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trở thành một Java Web Developer"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SỞ THÍCH"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#FF0000"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bóng Đá"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chơi Games Liên Quân"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <Button
+            android:id="@+id/bt_logout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#99FFFF"
+            android:text="LOGOUT"
+            android:textColor="#FF0000"
+            android:textStyle="bold"
+            ></Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>
